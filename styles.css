@@ -82,7 +82,6 @@ body {
 }
 
 .intro:after {
-  content: "";
   display: block;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.7);
@@ -181,12 +180,8 @@ body {
   margin-right: 0;
 }
 
-.end {
-  padding-top: 100px;
-}
-
 .GBico {
-  margin-bottom: 100px;
+  margin-bottom: 5vh;
   align-items: center;
   justify-content: center;
   max-width: 350px;
