@@ -19,16 +19,11 @@ body {
 	background: rgb(36, 32, 32);
 	margin: 0;
 }
-
 img {
 	display: block;
 	width: 100%;
 	max-width: 100%;
-
-
 }
-
-
 .container {
 	max-width: 1200px;
 	width: 100%;
@@ -135,32 +130,21 @@ img {
 	flex-direction: column;
 	justify-content: center;
 }
-
 .hero__developer-logo {
 	display: block;
 	width: auto;
 	height: 250px;
-
-
 }
-
 .link {
 	color:#d8a124 ;
 	font-size: xx-large;
-
 	text-decoration: none;
-
 }
-
 .flex {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
-	
-
 }
-
 .button--primary {
 	background-color: #d8a124;
 	color: black;
@@ -178,13 +162,11 @@ img {
 	text-align: center;
 	white-space: nowrap;
 }
-
 .button--primary:last-child {
 	margin-right: 0;
 	margin-bottom: 0;
 
 }
-
 /*
 	Privacy
 */
