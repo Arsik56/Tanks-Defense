@@ -10,59 +10,56 @@
 	<link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-
-	<nav class="navbar">
-        <div class="container">
-			
-			<a href="https://tanksdefense.ru/"><img src="png/TanksDefenseWebIcon.png" alt="logo" class="navbar-brand" class="d-inline-block allign-middle" width="60" height="60"></a>
-
+    <header class="header">
+        <div class="container header__container">
+        <nav class="header__navbar navbar">
+            <a class="header-branding" href="https://tanksdefense.ru/">
+                <img class="header-branding__logo" src="./png/TanksDefenseWebIcon.png" alt="logo">
+            </a>
             <ul class="navbar-menu">
-                <li><a href="https://tanksdefense.ru/">Tanks Defense</a></li>
-                <li><a href="PrivacyPolicy.html">Privacy Policy</a></li> 
+                <li class="navbar-menu__item"><a class="link navbar-menu__link" href="https://tanksdefense.ru/">Tanks Defense</a></li>
+                <li class="navbar-menu__item"><a class="link navbar-menu__link" href="PrivacyPolicy.html">Privacy Policy</a></li> 
             </ul>
+        </nav>       
         </div>
-
-
-    </nav>
+    </header>
 	
     
 
-
-<div class="intro">
-    <div class="video">
-        <img class="video_media" src="png/fon.jpg">
-        <div class="intro_content">
-            
-            <div class="ico">
-            
-                <img src="png/TanksDefenseNameLogo.png" width="1117" height="165">
-                
-            </div>
-            <div class="flex">
-                <a href="https://play.google.com/store/apps/details?id=com.GreenBoxstudio.TanksDefence" class="button button--primary button__download">Google Play</a>
-                <a href="https://www.youtube.com/watch?v=dv4lfOeJAEo" class="button button--primary button__download Trailer">Trailer</a>
-
-            </div>
-
-            <div class="flex intro_content_buttom">
-                <a href="https://discord.gg/Z7DzeEb"  class="buttom"><img src="png/discord_logo.png" alt="Discord"></a>
-                <a href="https://vk.com/tanksdefense"  class="buttom"><img src="png/vk_icon.png" alt="VK"></a>
-                <a href="https://www.youtube.com/channel/UCsWGORzY2aN5uDqN9OC0Jsw/featured"  class="buttom"><img src="png/YouTube_full-color_icon_(2017).svg.png" alt="Youtube"></a>
-                
-            </div>
-            
-            <div class="end">
-                <img src="png/GB23.png" class="GBico" alt="GreenBoxstudio">
-                <a href="mailto:greenboxzv@gmail.com" class="pochta">greenboxzv@gmail.com</a>
+<div class="hero">
+    <div class="hero__background">
+        <img class="hero__background-img" src="png/fon.jpg">
+    </div>
+    <div class="container hero__container">
+        <div class="hero__offer">
+            <div class="hero-logo">
+                <img class="hero-logo__img" src="png/TanksDefenseNameLogo.png">
             </div>
         </div>
-
-
+        <div class="hero__buttons flex">
+            <a class="button button--primary hero__button-download" href="https://play.google.com/store/apps/details?id=com.GreenBoxstudio.TanksDefence">
+                Google Play
+            </a>
+            <a class="button button--primary hero__button-trailer" href="https://www.youtube.com/watch?v=dv4lfOeJAEo">
+                Trailer
+            </a>
+        </div>
+        <div class="hero__socials flex socials">
+            <a class="socials__link socials__link--discord" href="https://discord.gg/Z7DzeEb">
+                <img class="socials__link-icon" src="png/discord_logo.png" alt="Discord">
+            </a>
+            <a class="socials__link socials__link--vk" href="https://vk.com/tanksdefense">
+                <img class="socials__link-icon" src="png/vk_icon.png" alt="VK">
+            </a>
+            <a class="socials__link socials__link--youtube" href="https://www.youtube.com/channel/UCsWGORzY2aN5uDqN9OC0Jsw/featured">
+                <img class="socials__link-icon" src="png/YouTube_full-color_icon_(2017).svg.png" alt="Youtube">
+            </a>
+        </div>
+        <div class="hero__credits">
+            <img src="./png/GB23.png" class="hero__developer-logo" alt="GreenBoxstudio">
+            <a href="mailto:greenboxzv@gmail.com" class="hero__link link link--email">greenboxzv@gmail.com</a>
+        </div>
     </div>
 </div>
-
-
-
-
 </body>
 </html>
